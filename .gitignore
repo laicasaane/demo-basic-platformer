@@ -67,3 +67,5 @@ crashlytics-build.properties
 [Aa]ssets/AddressableAssetsData/iOS.meta
 
 
+Assets/Plugins/DriveBrowser/GoogleCloudCredentials.asset
+Assets/Plugins/DriveBrowser/GoogleCloudCredentials.asset.meta

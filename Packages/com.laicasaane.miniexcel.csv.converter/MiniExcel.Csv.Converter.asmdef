@@ -1,13 +1,7 @@
 {
-    "name": "Game.Runtime",
-    "rootNamespace": "Game.Runtime",
+    "name": "MiniExcel.Csv.Converter",
+    "rootNamespace": "MiniExcel.Csv.Converter",
     "references": [
-        "Unity.Burst",
-        "Unity.Mathematics",
-        "Unity.TextMeshPro",
-        "UnityEngine.UI",
-        "Unity.2D.Common.Runtime",
-        "Unity.2D.Animation.Runtime",
         "MiniExcelLibs",
         "UniTask"
     ],
