@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using MiniExcel.Controls;
 using MiniExcel.Controls.Editor;
+using System.IO;
 
 namespace MiniExcel.Csv.Converter.Editor
 {
@@ -49,6 +50,16 @@ namespace MiniExcel.Csv.Converter.Editor
                 return;
 
             _settings._relativeDirectoryPath = relativePath;
+
+            var files = _settings._files;
+
+            foreach (var filePath in Directory.EnumerateFiles(absolutePath, "*.xlsx"))
+            {
+                var fileName = Path.GetFileName(filePath);
+                
+                if (files.ContainsKey(fileName) == false)
+                    files.Add(fileName, false);
+            }
 
             EditorUtility.SetDirty(_settings);
         }

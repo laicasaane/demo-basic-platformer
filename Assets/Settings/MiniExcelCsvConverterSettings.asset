@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: MiniExcelCsvConverterSettings
   m_EditorClassIdentifier: 
   _relativeDirectoryPath: Resources
+  _files:
+    _items:
+    - path: MasterData.xlsx
+      selected: 0
