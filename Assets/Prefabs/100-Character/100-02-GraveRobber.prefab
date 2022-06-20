@@ -35,6 +35,26 @@ PrefabInstance:
       propertyPath: m_SpriteLibraryAsset
       value: 
       objectReference: {fileID: 7108339969198208228, guid: 255a147754bb6564ba906ec1e8226e5f, type: 3}
+    - target: {fileID: 6923804736439746842, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.569
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.y
+      value: 1.997705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.007754177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.43164957
+      objectReference: {fileID: 0}
     - target: {fileID: 7522990510975276748, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -45,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 7108339969198208228, guid: 255a147754bb6564ba906ec1e8226e5f, type: 3}
     - target: {fileID: 8180104375668624129, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Name
-      value: 02-GraveRobber
+      value: 100-02-GraveRobber
       objectReference: {fileID: 0}
     - target: {fileID: 8960671908098936616, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite

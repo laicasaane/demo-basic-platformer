@@ -35,6 +35,26 @@ PrefabInstance:
       propertyPath: m_SpriteLibraryAsset
       value: 
       objectReference: {fileID: 7108339969198208228, guid: 89ca97f571b7bb94ab9630cb814744f2, type: 3}
+    - target: {fileID: 6923804736439746842, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.x
+      value: 0.59821963
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.y
+      value: 2.194144
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.02326256
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.043940425
+      objectReference: {fileID: 0}
     - target: {fileID: 7522990510975276748, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -45,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 7108339969198208228, guid: 89ca97f571b7bb94ab9630cb814744f2, type: 3}
     - target: {fileID: 8180104375668624129, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Name
-      value: 03-SteamMan
+      value: 100-03-SteamMan
       objectReference: {fileID: 0}
     - target: {fileID: 8960671908098936616, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite

@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1261331856922526423, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248095945774472065, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2042465
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248095945774472065, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_Size.y
+      value: 2.4267085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248095945774472065, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.16050078
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248095945774472065, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.06420174
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248095945774472065, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
+      propertyPath: m_Direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6777631109866735113, guid: d3b0eb33be76f974c8b5d3cdf4e4bab6, type: 3}
       propertyPath: m_Controller
       value: 

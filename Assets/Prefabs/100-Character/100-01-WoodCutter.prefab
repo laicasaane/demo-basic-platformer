@@ -12,6 +12,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 374343760511972883, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 374343760511972883, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -35,6 +39,26 @@ PrefabInstance:
       propertyPath: m_SpriteLibraryAsset
       value: 
       objectReference: {fileID: 7108339969198208228, guid: c582b88b06ac23d44a04bec7d9d3c7a0, type: 3}
+    - target: {fileID: 6923804736439746842, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.x
+      value: 0.66866183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8770419
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022854848762371600, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1264965
+      objectReference: {fileID: 0}
     - target: {fileID: 7522990510975276748, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -45,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 7108339969198208228, guid: c582b88b06ac23d44a04bec7d9d3c7a0, type: 3}
     - target: {fileID: 8180104375668624129, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Name
-      value: 01-WoodCutter
+      value: 100-01-WoodCutter
       objectReference: {fileID: 0}
     - target: {fileID: 8960671908098936616, guid: 52e72ad17f9179f47a8387af59229410, type: 3}
       propertyPath: m_Sprite
