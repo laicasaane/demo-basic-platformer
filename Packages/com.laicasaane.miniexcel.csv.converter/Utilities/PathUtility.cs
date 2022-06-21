@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace MiniExcel.Utilities
+namespace MiniExcelLibs.Utilities
 {
     public static class PathUtility
     {

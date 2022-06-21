@@ -1,10 +1,10 @@
 {
-    "name": "MiniExcel.Csv.Converter",
-    "rootNamespace": "MiniExcel.Csv.Converter",
+    "name": "MiniExcelLibs.Csv.Converter",
+    "rootNamespace": "MiniExcelLibs.Csv.Converter",
     "references": [
         "MiniExcelLibs",
         "UniTask",
-        "MiniExcel.Utilities"
+        "MiniExcelLibs.Utilities"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,4 +1,4 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("MiniExcel.Csv.Converter.Editor")]
+[assembly: InternalsVisibleTo("MiniExcelLibs.Csv.Converter.Editor")]

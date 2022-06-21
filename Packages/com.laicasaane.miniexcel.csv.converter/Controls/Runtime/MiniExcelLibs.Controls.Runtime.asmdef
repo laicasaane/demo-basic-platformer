@@ -1,7 +1,9 @@
 {
-    "name": "MiniExcel.Utilities",
-    "rootNamespace": "MiniExcel.Utilities",
-    "references": [],
+    "name": "MiniExcelLibs.Controls.Runtime",
+    "rootNamespace": "MiniExcelLibs.Controls.Runtime",
+    "references": [
+        "MiniExcelLibs.Utilities"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

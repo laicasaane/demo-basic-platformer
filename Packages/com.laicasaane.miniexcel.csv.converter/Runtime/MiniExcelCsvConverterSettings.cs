@@ -1,53 +1,40 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MiniExcel.Csv.Converter
+namespace MiniExcelLibs.Csv.Converter
 {
     [CreateAssetMenu(fileName = nameof(MiniExcelCsvConverterSettings), 
                      menuName = "MiniExcel/Csv Converter Settings", order = 1)]
     public class MiniExcelCsvConverterSettings : ScriptableObject
     {
         [SerializeField]
-        internal string _relativeDirectoryPath;
+        internal string _relativeExcelFolderPath = ".";
 
         [SerializeField]
-        internal ExcelFileList _files;
+        internal string _relativeCsvFolderPath = ".";
 
-        [Serializable]
-        internal struct ExcelFile
+        [SerializeField]
+        internal List<FileData> _excelFiles = new();
+
+        internal void CopyFilesToMap(Dictionary<string, bool> map)
         {
-            public string path;
-            public bool selected;
+            if (map == null) return;
+
+            foreach (var (path, selected) in _excelFiles)
+            {
+                map[path] = selected;
+            }
         }
 
-        [Serializable]
-        internal class ExcelFileList
-            : Dictionary<string, bool>
-            , ISerializationCallbackReceiver
+        internal void ApplyMapToFiles(Dictionary<string, bool> map)
         {
-            [SerializeField]
-            private ExcelFile[] _items;
+            if (map == null) return;
 
-            public void OnAfterDeserialize()
+            _excelFiles.Clear();
+
+            foreach (var (path, selected) in map)
             {
-                Clear();
-
-                foreach (var pair in _items)
-                {
-                    Add(pair.path, pair.selected);
-                }
-            }
-
-            public void OnBeforeSerialize()
-            {
-                _items = new ExcelFile[this.Count];
-                var i = 0;
-
-                foreach (var kv in this)
-                {
-                    _items[i] = new ExcelFile { path = kv.Key, selected = kv.Value };
-                }
+                _excelFiles.Add(new FileData { path = path, selected = selected });
             }
         }
     }

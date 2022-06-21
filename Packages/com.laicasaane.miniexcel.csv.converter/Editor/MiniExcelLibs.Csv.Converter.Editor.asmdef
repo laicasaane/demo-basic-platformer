@@ -1,8 +1,12 @@
 {
-    "name": "MiniExcel.Controls.Editor",
-    "rootNamespace": "MiniExcel.Controls.Editor",
+    "name": "MiniExcelLibs.Csv.Converter.Editor",
+    "rootNamespace": "MiniExcelLibs.Csv.Converter.Editor",
     "references": [
-        "MiniExcel.Controls.Runtime"
+        "MiniExcelLibs",
+        "MiniExcelLibs.Csv.Converter",
+        "MiniExcelLibs.Controls.Runtime",
+        "MiniExcelLibs.Controls.Editor",
+        "MiniExcelLibs.Utilities"
     ],
     "includePlatforms": [
         "Editor"

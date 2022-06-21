@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UIElements;
 
-namespace MiniExcel.Controls
+namespace MiniExcelLibs.Controls
 {
     partial class FolderBrowser
     {

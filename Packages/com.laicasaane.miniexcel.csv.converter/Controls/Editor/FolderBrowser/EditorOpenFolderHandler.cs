@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace MiniExcel.Controls.Editor
+namespace MiniExcelLibs.Controls.Editor
 {
     public class EditorOpenFolderHandler : IOpenFolderHandler
     {

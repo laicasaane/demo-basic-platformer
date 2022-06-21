@@ -1,4 +1,4 @@
-﻿namespace MiniExcel.Controls
+﻿namespace MiniExcelLibs.Controls
 {
     public interface IOpenFolderHandler
     {

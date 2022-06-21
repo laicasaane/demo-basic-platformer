@@ -1,7 +1,7 @@
 using UnityEngine.UIElements;
-using MiniExcel.Utilities;
+using MiniExcelLibs.Utilities;
 
-namespace MiniExcel.Controls
+namespace MiniExcelLibs.Controls
 {
     public delegate void FolderBrowserValueChanged(string absolutePath, string relativePath);
 
@@ -125,8 +125,9 @@ namespace MiniExcel.Controls
 
             if (openFolderHandler != null)
                 absolutePath = openFolderHandler.OpenFolder(browserTitle ?? BROWSER_TITLE, absolutePath, "");
-
-            onValueChanged?.Invoke(absolutePath, PathUtility.GetRelativePath(absolutePath));
+            
+            if (string.IsNullOrEmpty(absolutePath) == false)
+                onValueChanged?.Invoke(absolutePath, PathUtility.GetRelativePath(absolutePath));
         }
     }
 }

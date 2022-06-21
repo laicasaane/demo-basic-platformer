@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b9e7fb630eb7954aaa63302ee13490e, type: 3}
   m_Name: MiniExcelCsvConverterSettings
   m_EditorClassIdentifier: 
-  _relativeDirectoryPath: Resources
-  _files:
-    _items:
-    - path: MasterData.xlsx
-      selected: 0
+  _relativeExcelFolderPath: Resources
+  _relativeCsvFolderPath: Resources
+  _excelFiles:
+  - path: MasterData.xlsx
+    selected: 0

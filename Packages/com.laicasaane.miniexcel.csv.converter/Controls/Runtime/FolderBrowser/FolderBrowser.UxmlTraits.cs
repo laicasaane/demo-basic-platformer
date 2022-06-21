@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UIElements;
 
-namespace MiniExcel.Controls
+namespace MiniExcelLibs.Controls
 {
     partial class FolderBrowser
     {
@@ -8,7 +8,7 @@ namespace MiniExcel.Controls
         {
             readonly UxmlStringAttributeDescription _label = new() {
                 name = "label",
-                defaultValue = "Folder Browser"
+                defaultValue = ""
             };
 
             readonly UxmlBoolAttributeDescription _multiline = new() {
