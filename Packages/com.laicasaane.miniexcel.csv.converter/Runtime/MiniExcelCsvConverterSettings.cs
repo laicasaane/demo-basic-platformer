@@ -14,6 +14,9 @@ namespace MiniExcelLibs.Csv.Converter
         internal string _relativeCsvFolderPath = ".";
 
         [SerializeField]
+        internal string _ignoreSheetsStartWith = "";
+
+        [SerializeField]
         internal List<FileData> _excelFiles = new();
 
         internal void CopyFilesToMap(Dictionary<string, bool> map)

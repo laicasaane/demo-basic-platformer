@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: MiniExcelCsvConverterSettings
   m_EditorClassIdentifier: 
   _relativeExcelFolderPath: Resources
-  _relativeCsvFolderPath: Resources
+  _relativeCsvFolderPath: Database
+  _ignoreSheetsStartWith: <>
   _excelFiles:
-  - path: MasterData.xlsx
-    selected: 0
+  - path: MasterData
+    selected: 1

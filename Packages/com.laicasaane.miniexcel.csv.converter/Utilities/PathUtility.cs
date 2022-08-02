@@ -29,5 +29,9 @@ namespace MiniExcelLibs.Utilities
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string ToUnixPath(this string path)
             => path?.Replace(Path.DirectorySeparatorChar, '/') ?? string.Empty;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static string ToPlatformPath(this string path)
+            => path?.Replace('/', Path.DirectorySeparatorChar) ?? string.Empty;
     }
 }

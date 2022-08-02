@@ -3,7 +3,6 @@
     "rootNamespace": "MiniExcelLibs.Csv.Converter",
     "references": [
         "MiniExcelLibs",
-        "UniTask",
         "MiniExcelLibs.Utilities"
     ],
     "includePlatforms": [],

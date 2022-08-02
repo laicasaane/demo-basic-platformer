@@ -123,6 +123,9 @@ namespace MiniExcelLibs.Controls
         {
             var absolutePath = isRelativePath ? PathUtility.GetAbsolutePath(_textField.text) : _textField.text;
 
+            if (System.IO.Directory.Exists(absolutePath) == false)
+                absolutePath = PathUtility.GetRootPath();
+
             if (openFolderHandler != null)
                 absolutePath = openFolderHandler.OpenFolder(browserTitle ?? BROWSER_TITLE, absolutePath, "");
             
