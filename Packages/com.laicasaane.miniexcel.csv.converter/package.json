@@ -1,8 +1,8 @@
 {
   "name": "com.laicasaane.miniexcel.csv.converter",
   "version": "1.0.0",
-  "displayName": "MiniExcel.Csv.Converter",
-  "description": "Convert Excel workbooks to Csv files using MiniExcel library",
+  "displayName": "MiniExcel.CSV.Converter",
+  "description": "Convert Excel workbooks to CSV files using MiniExcel library",
   "unity": "2019.4",
   "keywords": [
     "excel",
@@ -16,7 +16,15 @@
     "url": "https://github.com/laicasaane"
   },
   "dependencies": {
-	"com.laicasaane.miniexcel": "1.26.3",
-	"com.cysharp.unitask": "2.3.1"
-  }
+	"com.laicasaane.miniexcel": "1.26.3"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.laicasaane.miniexcel"
+      ]
+    }
+  ]
 }
